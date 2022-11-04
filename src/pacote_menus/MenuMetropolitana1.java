@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import javax.swing.ImageIcon;
+
 
 public class MenuMetropolitana1 extends javax.swing.JFrame {
 
@@ -267,6 +269,8 @@ public class MenuMetropolitana1 extends javax.swing.JFrame {
     // End of variables declaration                   
 
     private void setIconBar() {
-        setIconImage(Toolkit.getDefaultToolkit().getImage("Images/printer.png"));
+    	ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("printer.png"));
+    	
+    	setIconImage(icon.getImage());
     }
 }

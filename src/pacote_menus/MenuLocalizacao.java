@@ -11,7 +11,6 @@ import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 
 public class MenuLocalizacao extends javax.swing.JFrame {
-
     /**
 	 * 
 	 */
@@ -337,6 +336,12 @@ public class MenuLocalizacao extends javax.swing.JFrame {
             case "171" -> {
                 btnCidade.setText("Colombo");
                 ipServer = "explorer \\\\servercbo04";
+                break;
+            }
+            
+            case "26" -> {
+                btnCidade.setText("Sede");
+                ipServer = "explorer \\\\srvdrv12";
                 break;
             }
             
