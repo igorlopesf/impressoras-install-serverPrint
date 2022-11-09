@@ -339,6 +339,18 @@ public class MenuLocalizacao extends javax.swing.JFrame {
                 break;
             }
             
+            case "24" -> {
+                btnCidade.setText("Sede");
+                ipServer = "explorer \\\\srvdrv12";
+                break;
+            }
+            
+            case "25" -> {
+                btnCidade.setText("Sede");
+                ipServer = "explorer \\\\srvdrv12";
+                break;
+            }
+            
             case "26" -> {
                 btnCidade.setText("Sede");
                 ipServer = "explorer \\\\srvdrv12";
@@ -358,6 +370,18 @@ public class MenuLocalizacao extends javax.swing.JFrame {
             }
             
             case "29" -> {
+                btnCidade.setText("Sede");
+                ipServer = "explorer \\\\srvdrv12";
+                break;
+            }
+            
+            case "30" -> {
+                btnCidade.setText("Sede");
+                ipServer = "explorer \\\\srvdrv12";
+                break;
+            }
+            
+            case "31" -> {
                 btnCidade.setText("Sede");
                 ipServer = "explorer \\\\srvdrv12";
                 break;
@@ -627,7 +651,7 @@ public class MenuLocalizacao extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         new MenuCamposGerais().setVisible(true);
-        dispose();// TODO add your handling code here:
+        dispose();
     }                                        
 
     private void metropolitana1ActionPerformed(java.awt.event.ActionEvent evt) {                                               
