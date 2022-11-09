@@ -79,7 +79,7 @@ public class MenuCamposGerais extends javax.swing.JFrame {
 			}
 		});
 
-		pgSesi.setText("<html>Ponta Grossa<br>Senai</html>");
+		pgSesi.setText("<html>Ponta Grossa<br>Sesi</html>");
 		pgSesi.addActionListener(new java.awt.event.ActionListener() {
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
 				pgSesiActionPerformed(evt);
